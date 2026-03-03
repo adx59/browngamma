@@ -4,6 +4,7 @@
 ### 03/02 - Kevin
 - Removed Tom as coach
 - Created "Club Update" section and added anonymous feedback form and feature on Brown alumni Magazine
+- G-cal color change (hex code added in URL "color&23xxxxxx")
 
 ### 02/18 - Kevin
 - Embedded Google Calendar in week view
