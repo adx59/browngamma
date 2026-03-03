@@ -1,6 +1,9 @@
 # Changelog
 
 ## Changes
+### 03/03 - Kevin
+- Added Kirsten to the website
+
 ### 03/02 - Kevin
 - Removed Tom as coach
 - Created "Club Update" section and added anonymous feedback form and feature on Brown alumni Magazine
