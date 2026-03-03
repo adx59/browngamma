@@ -7,6 +7,9 @@ Live site: https://browngamma.org
 Vercel link: 
 Push changes to GitHub - website auto updates
 
+## How to run locally
+open index.html
+
 
 ## Editors
 Adam Xu - Fall 2025  

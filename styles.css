@@ -227,7 +227,7 @@ main {
 }
 
 .leadership {
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     padding: 4rem 2rem;
 }
 
@@ -346,7 +346,7 @@ main {
 }
 
 .schedule {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 4rem 2rem;
 }
 
@@ -674,4 +674,86 @@ main {
         grid-template-columns: 1fr;
         gap: 0.5rem;
     }
+}
+
+/**** NEWS SECTION */
+.news {
+    background-color: var(--primary-color);
+    padding: 4rem 2rem;
+}
+
+.news-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.news h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.news-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.news-item {
+    background-color: var(--primary-color);
+    border-left: 6px solid var(--accent-color);
+    padding: 1.5rem 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+.news-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.news-date {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.5px;
+}
+
+.news-title {
+    margin: 0 0 0.6rem 0;
+    font-size: 1.3rem;
+}
+
+.news-title a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.news-title a:hover {
+    color: var(--accent-color);
+}
+
+.news-blurb {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.news-footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.news-more {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.news-more:hover {
+    color: var(--text-color);
 }
