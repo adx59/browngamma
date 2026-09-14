@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Board - Brown University GAMMA</title>
+    <title>Leadership - Brown GAMMA | Brown University Grappling & MMA Club</title>
+    <meta name="description" content="Meet the current leadership team of Brown GAMMA — Brown University's grappling and mixed martial arts striking and grappling captains.">
+    <link rel="canonical" href="https://browngamma.org/eboard.html">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +19,30 @@
 <body>
     <header>
         <nav>
+            <a href="index.html" class="nav-logo">Brown <span>GAMMA</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation"
+                aria-expanded="false">
+                <svg class="icon-menu" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="icon-close" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#index.html#news">Club Updates</a></li>
+                <li><a href="index.html#news">Club Updates</a></li>
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#schedule">Schedule</a></li>
-                <li><a href="eboard.html">E-Board</a></li>
+                <li><a href="eboard.html">Leadership</a></li>
+                <li><a href="index.html#join">Join</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </nav>
@@ -30,159 +50,12 @@
 
     <main>
         <section class="eboard">
-            <h1>Executive Board</h1>
+            <h1>Leadership</h1>
 
-            <div class="eboard-section">
-                <h2>Coaches</h2>
-                <div class="eboard-grid">
-                    <div class="member-card belt-black">
-                        <img src="images/leadership/thumbnails/daniel.png"
-                            alt="Daniel Usen" class="member-image">
-                        <h3>Daniel Usen</h3>
-                        <p class="member-role">Grappling Coach</p>
-                        <div class="belt-band belt-black">BJJ Black</div>
-                    </div>
-                    <div class="member-card belt-black">
-                        <img src="images/leadership/thumbnails/adam.jpg"
-                            alt="Adam Aparicio" class="member-image">
-                        <h3>Adam Aparicio</h3>
-                        <p class="member-role">Grappling Coach</p>
-                        <div class="belt-band belt-black">BJJ Black</div>
-                    </div>
-                    <div class="member-card striking">
-                        <img src="images/leadership/adam_w.jpg"
-                            alt="Adam Wilson" class="member-image">
-                        <h3>Adam Wilson</h3>
-                        <p class="member-role">Striking Coach</p>
-                        <div class="belt-band belt-red">Striking</div>
-                    </div>
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/kirsten.jpg"
-                            alt="Kirsten Mrva" class="member-image">
-                        <h3>Kirsten Mrva</h3>
-                        <p class="member-role">Grappling Coach</p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                </div>
-            </div>
+            <div id="eboard-container"></div>
 
-            <div class="eboard-section">
-                <h2>Captains</h2>
-                <div class="eboard-grid">
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/jed.jpg"
-                            alt="Jed Kim" class="member-image">
-                        <h3>Jed Kim <span class="class-year">'26</span></h3>
-                        <p class="member-role">Captain</p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                    <div class="member-card belt-brown">
-                        <img src="images/leadership/thumbnails/august.jpg"
-                            alt="August Berklas" class="member-image">
-                        <h3>August Berklas <span class="class-year">'26</span>
-                        </h3>
-                        <p class="member-role">Captain</p>
-                        <div class="belt-band belt-brown">BJJ Brown</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="eboard-section">
-                <h2>Officers</h2>
-                <div class="eboard-grid">
-                    <div class="member-card belt-red">
-                        <img src="images/leadership/thumbnails/sohana.jpg"
-                            alt="Sohana Raisa" class="member-image">
-                        <h3>Sohana Raisa <span class="class-year">'28</span>
-                        </h3>
-                        <p class="member-role">Social Media</p>
-                        <div class="belt-band belt-red">Striking</div>
-                    </div>
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/yehjin.jpg"
-                            alt="Yehjin Hwang" class="member-image">
-                        <h3>Yehjin Hwang <span class="class-year">'28</span>
-                        </h3>
-                        <p class="member-role">Social Media</p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/mariana.jpg"
-                            alt="Mariana Joyce" class="member-image">
-                        <h3>Mariana Joyce <span class="class-year">'27</span>
-                        </h3>
-                        <p class="member-role">Tournaments</p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                    <div class="member-card belt-red">
-                        <img src="images/leadership/thumbnails/siddhant.jpg"
-                            alt="Siddhant Karmali" class="member-image">
-                        <h3>Siddhant Karmali <span class="class-year">'27</span>
-                        </h3>
-                        <p class="member-role">Scheduling</p>
-                        <div class="belt-band belt-red">Striking</div>
-                    </div>
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/sayid.jpg"
-                            alt="Sayid Achilov" class="member-image">
-                        <h3>Sayid Achilov <span class="class-year">'28</span>
-                        </h3>
-                        <p class="member-role">Finance</p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                    <div class="member-card belt-white">
-                        <img src="images/leadership/thumbnails/adam_x.jpg"
-                            alt="Adam Xu" class="member-image">
-                        <h3>Adam Xu <span class="class-year">'27</span></h3>
-                        <p class="member-role">Web</p>
-                        <div class="belt-band belt-white">BJJ White</div>
-                    </div>
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/jason.jpg"
-                            alt="Jason McDermott" class="member-image">
-                        <h3>Jason McDermott <span class="class-year">'27</span>
-                        </h3>
-                        <p class="member-role"></p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/kevin.jpg"
-                            alt="Kevin Zhu" class="member-image">
-                        <h3>Kevin Zhu <span class="class-year">'26</span></h3>
-                        <p class="member-role"></p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                    <div class="member-card belt-red">
-                        <img src="images/leadership/thumbnails/ghali.jpg"
-                            alt="Ghali Maata" class="member-image">
-                        <h3>Ghali Maata <span class="class-year">'27</span></h3>
-                        <p class="member-role"></p>
-                        <div class="belt-band belt-red">Striking</div>
-                    </div>
-                    <div class="member-card belt-red">
-                        <img src="images/leadership/thumbnails/khi.jpg"
-                            alt="Mekhi Mitchell" class="member-image">
-                        <h3>Mekhi Mitchell <span class="class-year">'28</span>
-                        </h3>
-                        <p class="member-role"></p>
-                        <div class="belt-band belt-red">Striking</div>
-                    </div>
-                    <div class="member-card belt-red">
-                        <img src="images/leadership/thumbnails/maksym.jpg"
-                            alt="Maksym Temnosagatyi" class="member-image">
-                        <h3>Maks Temnosagatyi <span
-                                class="class-year">'26</span></h3>
-                        <p class="member-role"></p>
-                        <div class="belt-band belt-red">Striking</div>
-                    </div>
-                    <div class="member-card belt-blue">
-                        <img src="images/leadership/thumbnails/mal.jpg"
-                            alt="Mal Go" class="member-image">
-                        <h3>Mal Go MPH <span class="class-year">'26</span></h3>
-                        <p class="member-role"></p>
-                        <div class="belt-band belt-blue">BJJ Blue</div>
-                    </div>
-                </div>
+            <div class="past-leadership-link-container">
+                <a href="past-leadership.html" class="past-leadership-link">View Past Leadership →</a>
             </div>
         </section>
     </main>

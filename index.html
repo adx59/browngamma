@@ -4,8 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brown University Grappling and Mixed Martial Arts</title>
-    <!-- Favicon logo from Instagram -->
+    <title>Brown GAMMA | Brown University Grappling & Mixed Martial Arts Club</title>
+    <meta name="description" content="GAMMA: Brown University's grappling and mixed martial arts club. Beginner-friendly training in striking, wrestling, and submission grappling in Providence, RI. No experience needed.">
+    <meta name="keywords" content="Brown University MMA, Brown grappling club, Brown martial arts, MMA club Providence, Brown BJJ, Brown kickboxing, Brown GAMMA, Brown University wrestling, submission grappling Providence">
+    <meta property="og:title" content="Brown GAMMA | Brown University Grappling & MMA Club">
+    <meta property="og:description" content="GAMMA: Brown University's grappling and mixed martial arts club. Beginner-friendly striking, wrestling, and submission grappling in Providence, RI. No experience needed.">
+    <meta property="og:url" content="https://browngamma.org/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Brown GAMMA">
+    <link rel="canonical" href="https://browngamma.org/">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,16 +20,56 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;500&display=swap"
         rel="stylesheet">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SportsClub",
+        "name": "Brown GAMMA – Grappling and Mixed Martial Arts",
+        "url": "https://browngamma.org",
+        "email": "brownuniversitygamma@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Kasper Multipurpose Room, Faunce House",
+            "addressLocality": "Providence",
+            "addressRegion": "RI",
+            "postalCode": "02912",
+            "addressCountry": "US"
+        },
+        "memberOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Brown University"
+        },
+        "sport": ["Mixed Martial Arts", "Grappling", "Boxing", "Muay Thai", "Submission Grappling"]
+    }
+    </script>
 </head>
 
 <body>
     <header>
         <nav>
+            <a href="#top" class="nav-logo">Brown <span>GAMMA</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation"
+                aria-expanded="false">
+                <svg class="icon-menu" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+                <svg class="icon-close" width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#news">Club Updates</a></li>
                 <li><a href="#schedule">Schedule</a></li>
-                <li><a href="eboard.html">E-Board</a></li>
+                <li><a href="eboard.html">Leadership</a></li>
+                <li><a href="#join">Join</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -62,8 +109,17 @@
                 <h1><span class="university-name">Brown
                         University</span>Grappling and Mixed Martial Arts
                     (GAMMA)</h1>
-                <a href="#contact" class="cta-button">Join Us</a>
+                <a href="#join" class="cta-button">Join Us</a>
             </div>
+            <div class="hero-dots" role="tablist"
+                aria-label="Slideshow navigation"></div>
+            <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
         </section>
         <section id="about" class="about">
             <div class="about-content">
@@ -155,22 +211,76 @@
         <section class="leadership">
             <h2>Leadership</h2>
             <div class="leadership-grid">
+                <div class="leader-card belt-red">
+                    <img src="images/leadership/thumbnails/ghali.jpg"
+                        alt="Ghali Maata" class="leader-image">
+                    <h3>Ghali Maata <span class="class-year">'27</span></h3>
+                    <p class="leader-role">Striking Captain</p>
+                    <div class="belt-band belt-red">Striking</div>
+                </div>
                 <div class="leader-card belt-blue">
-                    <img src="images/leadership/thumbnails/jed.jpg"
-                        alt="Jed Kim" class="leader-image">
-                    <h3>Jed Kim <span class="class-year">'26</span></h3>
-                    <p class="leader-role">Student Captain</p>
+                    <img src="images/leadership/thumbnails/yehjin.jpg"
+                        alt="Yehjin Hwang" class="leader-image">
+                    <h3>Yehjin Hwang <span class="class-year">'28</span></h3>
+                    <p class="leader-role">Grappling Captain</p>
                     <div class="belt-band belt-blue">BJJ Blue</div>
                 </div>
-                <div class="leader-card belt-brown">
-                    <img src="images/leadership/thumbnails/august.jpg"
-                        alt="August Berklas" class="leader-image">
-                    <h3>August Berklas <span class="class-year">'26</span></h3>
-                    <p class="leader-role">Student Captain</p>
-                    <div class="belt-band belt-brown">BJJ Brown</div>
-                </div>
             </div>
-            <a href="eboard.html" class="view-more">View Full E-Board →</a>
+            <a href="eboard.html" class="view-more">View Full Leadership →</a>
+        </section>
+
+        <section id="join" class="join">
+            <div class="join-content">
+                <h2>Join GAMMA</h2>
+                <p class="join-lede">No experience? No problem! Most of our
+                    members had never thrown a punch or shot a takedown before
+                    their first practice at GAMMA.</p>
+                <div class="join-points">
+                    <div class="join-point">
+                        <svg width="32" height="32" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        <h3>No Experience Needed</h3>
+                        <p>Beginners welcome; we'll teach you everything from
+                            the ground up!</p>
+                    </div>
+                    <div class="join-point">
+                        <svg width="32" height="32" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                        <h3>All Brown Students Welcome</h3>
+                        <p>Undergrad, grad, any fitness level!</p>
+                    </div>
+                    <div class="join-point">
+                        <svg width="32" height="32" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        <h3>Just Show Up!</h3>
+                        <p>Show up ready to learn and work hard. We provide
+                            the coaching, the mats, and the community.</p>
+                    </div>
+                </div>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+                <p class="join-cta-note">Questions? <a
+                        href="mailto:brownuniversitygamma@gmail.com">Email
+                        us</a> or DM <a
+                        href="https://www.instagram.com/brownugamma"
+                        target="_blank"
+                        rel="noopener noreferrer">@brownugamma</a> or just
+                    show up to a practice!</p>
+            </div>
         </section>
     </main>
 
