@@ -4,78 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leadership - Brown GAMMA | Brown University Grappling & MMA Club</title>
-    <meta name="description" content="Meet the current leadership team of Brown GAMMA — Brown University's grappling and mixed martial arts striking and grappling captains.">
+    <title>Team | Brown GAMMA</title>
+    <meta name="description" content="Meet the coaches, captains, officers, and members of Brown GAMMA — Brown University's grappling and mixed martial arts club.">
     <link rel="canonical" href="https://browngamma.org/eboard.html">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html" class="nav-logo">Brown <span>GAMMA</span></a>
-            <button class="nav-toggle" aria-label="Toggle navigation"
-                aria-expanded="false">
-                <svg class="icon-menu" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2" stroke-linecap="round">
-                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                    <line x1="3" y1="18" x2="21" y2="18"></line>
+    <header class="site-header">
+        <nav aria-label="Primary">
+            <a href="index.html" class="brand">Brown <strong>GAMMA</strong> <small>Grappling &amp; MMA</small></a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <svg class="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line>
                 </svg>
-                <svg class="icon-close" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                    stroke-width="2" stroke-linecap="round">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                <svg class="icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#news">Club Updates</a></li>
+            <ul class="nav-links">
                 <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#updates">Updates</a></li>
                 <li><a href="index.html#schedule">Schedule</a></li>
-                <li><a href="eboard.html">Leadership</a></li>
+                <li><a href="eboard.html" class="active">Team</a></li>
                 <li><a href="index.html#join">Join</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="eboard">
-            <h1>Leadership</h1>
-
-            <div id="eboard-container"></div>
-
-            <div class="past-leadership-link-container">
-                <a href="past-leadership.html" class="past-leadership-link">View Past Leadership →</a>
+        <div class="container">
+            <div class="page-title">
+                <span class="label">Team</span>
+                <h1>The team</h1>
+                <p>The people who run practices, coach, compete, and keep the club going.</p>
+                
             </div>
-        </section>
+            <!-- Rendered from eboard-data.json by scripts.js -->
+            <div data-team="current"></div>
+            <div class="team-foot"><a class="text-link" href="past-leadership.html">Past leadership</a></div>
+        </div>
     </main>
 
-    <footer class="contact">
-        <div class="contact-content">
-            <div class="contact-info">
-                <h3>Contact Us</h3>
-                <p class="email">brownuniversitygamma@gmail.com</p>
-                <p class="location">Kasper Multipurpose Room, Faunce House,
-                    Providence 02912</p>
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-word"><span class="red">GAMMA</span></div>
+                    <p>Brown University Grappling &amp; Mixed Martial Arts. A student club, est. 2012.</p>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="mailto:brownuniversitygamma@gmail.com">brownuniversitygamma@gmail.com</a></li>
+                        <li><a href="https://www.instagram.com/brownugamma" target="_blank" rel="noopener noreferrer">@brownugamma</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Where</h3>
+                    <p>Kasper Multipurpose Room<br>Faunce House<br>Providence, RI 02912</p>
+                </div>
             </div>
-            <div class="social-links">
-                <a href="https://www.instagram.com/brownugamma" target="_blank"
-                    rel="noopener noreferrer"
-                    class="social-link">@brownugamma</a>
+            <div class="footer-bottom caption">
+                <span>© <span data-year></span> Brown <span class="red">GAMMA</span></span>
+                <span>Site: <a href="mailto:adam_xu@brown.edu">adam_xu@brown.edu</a></span>
             </div>
         </div>
-        <p class="website-credit">Website managed by <a
-                href="mailto:adam_xu@brown.edu">adam_xu@brown.edu</a></p>
     </footer>
 
     <script src="scripts.js"></script>

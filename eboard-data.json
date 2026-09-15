@@ -1,0 +1,273 @@
+{
+  "_readme": "Groups render in order. Every member is a card; members without an 'image' get an initials placeholder. Per group you can set 'columns' (cards per row, default 3) and 'sort': 'year' (grad students first, then '27, '28, ...). 'color' is one of: white, blue, purple, brown, black, red (red = striking). 'colorLabel' is the band text. 'classYear', 'role', 'bio' are optional.",
+  "current": [
+    {
+      "title": "Coaches",
+      "columns": 4,
+      "members": [
+        {
+          "name": "Dan Usen",
+          "role": "Grappling Coach",
+          "image": "images/leadership/thumbnails/daniel.png",
+          "color": "black",
+          "colorLabel": "BJJ Black"
+        },
+        {
+          "name": "Marco Ferrer",
+          "role": "Grappling Coach",
+          "image": "images/leadership/marco.webp",
+          "color": "black",
+          "colorLabel": "BJJ Black / Judo Brown"
+        },
+        {
+          "name": "Adam Wilson",
+          "role": "Striking Coach",
+          "image": "images/leadership/adam_w.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Kirsten Mrva",
+          "role": "Grappling & Striking Coach",
+          "image": "images/leadership/thumbnails/kirsten.jpg",
+          "color": "blue",
+          "colorLabel": "BJJ Blue / Striking"
+        }
+      ]
+    },
+    {
+      "title": "Captains",
+      "members": [
+        {
+          "name": "Ghali Maata",
+          "classYear": "'27",
+          "role": "Striking Captain",
+          "image": "images/leadership/2026-2027/ghali.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Yehjin Hwang",
+          "classYear": "'28",
+          "role": "Grappling Captain",
+          "image": "images/leadership/2026-2027/yehjin.jpg",
+          "color": "blue",
+          "colorLabel": "BJJ Blue"
+        }
+      ]
+    },
+    {
+      "title": "Officers",
+      "members": [
+        {
+          "name": "Beth Chew",
+          "classYear": "'28",
+          "role": "Social Media Chair",
+          "image": "images/leadership/2026-2027/beth.jpg",
+          "color": "white",
+          "colorLabel": "BJJ White"
+        },
+        {
+          "name": "Luke Barbieri",
+          "classYear": "'29",
+          "role": "Tournament Director",
+          "image": "images/leadership/2026-2027/luke.jpg",
+          "color": "white",
+          "colorLabel": "BJJ White"
+        },
+        {
+          "name": "Siddhant Karmali",
+          "classYear": "'27",
+          "role": "Tournament Director",
+          "image": "images/leadership/2026-2027/sid.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Renee Kim",
+          "classYear": "'28",
+          "role": "Social Chair",
+          "image": "images/leadership/2026-2027/renee.jpg",
+          "color": "white",
+          "colorLabel": "BJJ White"
+        },
+        {
+          "name": "Tarn Reilly",
+          "classYear": "'28",
+          "role": "Scheduler",
+          "image": "images/leadership/2026-2027/tarn.jpg",
+          "color": "white",
+          "colorLabel": "BJJ White"
+        },
+        {
+          "name": "Adam Xu",
+          "classYear": "'27",
+          "role": "Treasurer",
+          "image": "images/leadership/2026-2027/adam.jpg",
+          "color": "white",
+          "colorLabel": "BJJ White"
+        }
+      ]
+    },
+    {
+      "title": "General Body",
+      "sort": "year",
+      "members": [
+        {
+          "name": "Bryce Barbee",
+          "classYear": "Graduate Student",
+          "image": "images/leadership/2026-2027/bryce.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Christian Ramos",
+          "classYear": "Graduate Student",
+          "image": "images/leadership/2026-2027/spash.jpg",
+          "color": "blue",
+          "colorLabel": "BJJ Blue"
+        },
+        {
+          "name": "Elizabeth Carrara",
+          "classYear": "Graduate Student",
+          "image": "images/leadership/2026-2027/elizabeth.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Erin Okey",
+          "classYear": "Graduate Student",
+          "image": "images/leadership/2026-2027/erin.jpg",
+          "color": "blue",
+          "colorLabel": "BJJ Blue"
+        },
+        {
+          "name": "Yovany Padilla",
+          "classYear": "Graduate Student",
+          "image": "images/leadership/2026-2027/yovanny.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Jason McDermott",
+          "classYear": "'27",
+          "image": "images/leadership/thumbnails/jason.jpg",
+          "color": "purple",
+          "colorLabel": "BJJ Purple"
+        },
+        {
+          "name": "Mariana Joyce",
+          "classYear": "'27",
+          "image": "images/leadership/2026-2027/mariana.jpg",
+          "color": "blue",
+          "colorLabel": "BJJ Blue"
+        },
+        {
+          "name": "Taiki Chan",
+          "classYear": "'27",
+          "image": "images/leadership/2026-2027/taiki.jpg",
+          "color": "blue",
+          "colorLabel": "BJJ Blue"
+        },
+        {
+          "name": "Drakeson Hu",
+          "classYear": "'28",
+          "image": "images/leadership/2026-2027/drakeson.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Sarik Gupta",
+          "classYear": "'29",
+          "image": "images/leadership/2026-2027/sarik.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Sayid Achilov",
+          "classYear": "'28",
+          "image": "images/leadership/2026-2027/sayid.jpg",
+          "color": "blue",
+          "colorLabel": "BJJ Blue"
+        },
+        {
+          "name": "Ibby Mian",
+          "classYear": "'29",
+          "image": "images/leadership/2026-2027/ibby.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Oona O'Brien",
+          "classYear": "'29",
+          "image": "images/leadership/2026-2027/oona.jpg",
+          "color": "red",
+          "colorLabel": "Striking"
+        }
+      ]
+    }
+  ],
+  "past": [
+    {
+      "title": "Former Captains",
+      "members": [
+        {
+          "name": "Jed Kim",
+          "classYear": "'26",
+          "role": "Captain",
+          "image": "images/leadership/thumbnails/jed.jpg",
+          "color": "purple",
+          "colorLabel": "BJJ Purple"
+        },
+        {
+          "name": "August Berklas",
+          "classYear": "'26",
+          "role": "Captain",
+          "image": "images/leadership/thumbnails/august.jpg",
+          "color": "brown",
+          "colorLabel": "BJJ Brown"
+        }
+      ]
+    },
+    {
+      "title": "Former Officers & Members",
+      "members": [
+        {
+          "name": "Mal Go",
+          "classYear": "Graduate Student",
+          "image": "",
+          "color": "blue",
+          "colorLabel": "BJJ Blue"
+        },
+        {
+          "name": "Kevin Zhu",
+          "classYear": "'26",
+          "image": "images/leadership/2026-2027/kevin.jpg",
+          "color": "purple",
+          "colorLabel": "BJJ Purple"
+        },
+        {
+          "name": "Maks Temnosagatyi",
+          "classYear": "'26",
+          "image": "",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Sohana Raisa",
+          "classYear": "'28",
+          "image": "",
+          "color": "red",
+          "colorLabel": "Striking"
+        },
+        {
+          "name": "Mekhi Mitchell",
+          "classYear": "'28",
+          "image": "",
+          "color": "red",
+          "colorLabel": "Striking"
+        }
+      ]
+    }
+  ]
+}
